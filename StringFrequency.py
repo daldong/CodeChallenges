@@ -1,7 +1,8 @@
 '''
 This is for string frequncy program.
-There is a input data and count the word in the input file.
-Some special characters are replaced by a space with regular expression in this code.
+There is an input file with txt format.
+After reading the file, the words are counted by count function.
+An regular expression is used to replace special characters to a space.
 '''
 import re
 def replaceText(text):
